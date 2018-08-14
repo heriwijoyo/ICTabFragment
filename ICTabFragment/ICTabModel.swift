@@ -17,4 +17,10 @@ open class ICTabModel {
         self.tabName = tabName
         self.tabView = tabView
     }
+    
+    public init(tabName: String, tabView: UIViewController, isSelected: Bool) {
+        self.tabName = tabName
+        self.tabView = tabView
+        self.isSelected = isSelected
+    }
 }
